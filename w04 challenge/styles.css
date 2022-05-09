@@ -1,0 +1,43 @@
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(255, 149, 167);
+}
+.container{
+    font-family: arial;
+  margin: 0 auto;
+  width: 700px;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    font-size: 350%; 
+    max-width: 8em;
+}
+main h1{
+    text-align: center;
+    color: white;
+}
+main h1:hover {
+    color: black;
+}
+main h2, h3{
+    text-align: center;
+    color: white;
+}
+main h3{
+    font-size: 200%;
+}
+main h4{
+    text-align: center ;
+    color: black;
+    font-size: 130%;
+}
+main h5{
+    text-align: center;
+}
