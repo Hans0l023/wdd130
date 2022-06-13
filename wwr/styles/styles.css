@@ -168,7 +168,7 @@ footer{
     background-color: #31572C;
     text-decoration: underline;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -191,6 +191,38 @@ h3{
     opacity: .6;
     transform: scale(1.1);
 }   
+
+#faq-msg{
+    display: grid ;
+    grid-template-columns: 1fr;
+    font-size: 1.5em;
+    text-align: left;
+
+
+}
+#faq-msg h18{
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Rock Salt";
+    font-size: 1.5em;
+    margin-top: -275px;
+    font-weight: bolder;
+}
+#faq-msg h15, h17, h7, h9, h11, h13{
+    font-family: "Rock Salt";
+    font-weight: bold;
+    font-size: 1em;
+}
+#faq-msg p16, p6, p8, p10, p12, p14{
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1em;
+}
+#faq-msg h15, p16, h7, p8, h11, p12{
+    background-color: #B2BD7E;
+}
+#faq-msg h17, p6, h9, p10, h13, p14{
+    background-color: #6f7364;
+}
 
 
 
