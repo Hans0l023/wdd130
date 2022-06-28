@@ -73,6 +73,7 @@ body {
     padding-left: 50px;
     background-color: gray;
     margin-top: 30px;
+    text-align:center;
 }
 #card-print{
     grid-column: 2/3;
@@ -92,6 +93,7 @@ body {
     grid-row: 2/3;
     padding: 20px;
     background-color: gray;
+    text-align:center;
 }
 #button-box{
     grid-column: 2/3;
