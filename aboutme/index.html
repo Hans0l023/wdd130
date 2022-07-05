@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="style/java.js"></script>
     <title>BYUI intro</title>
 </head>
+
 <body>
     <h1>About me</h1>
-    <img alt="Image of me" src="images/Me_and_lucky.jpg"
-    width="200"
-    height="250">
+    <div class="row">
+        <div class="column">
+          <img src="images/lexi and i.jpg" alt="Lexi an I" onclick="myFunction(this);" width="200"
+          height="250">
+        </div>
+        <div class="column">
+          <img src="images/wedding day.jpg" alt="Wedding Day" onclick="myFunction(this);" width="250"
+          height="250">
+        </div>
+        <div class="column">
+          <img src="images/goodboy lucky.jpg" alt="Goodboy Lucky" onclick="myFunction(this);" width="150"
+          height="250">
+        </div>
+        <div class="column">
+          <img src="images/Me_and_lucky.jpg" alt="Me and Lucky" onclick="myFunction(this);" width="200"
+          height="250">
+        </div>
+      </div>
+      
+      <!-- The expanding image container -->
+      <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+      
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
     <h2>Hans Watts</h2>
     <p>Hello My name is Hans I am an Applied Technology student. This is my third 
         semester at college, I started as a mechanical engineer, then switched to 
