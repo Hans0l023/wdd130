@@ -17,15 +17,13 @@ nav a{
     color: white;
     text-decoration: none;
     font-family: 'Orbitron';
+    font-size: xx-large;
 }
 nav a:hover {
     background-color: #1b00e6;
     text-decoration: underline;
 }
 
-#content{
-    background-color: #242423;
-}
 .home-grid{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -51,6 +49,7 @@ body {
     max-width: 1500px ;
     margin: 0 auto;
     font-size: .6em;
+    background-color: #242423;
 }
 .card-img{
     margin:0,  auto;
@@ -112,7 +111,7 @@ body {
     margin-bottom: 20px;
     justify-self: center;
 }
-.button-box, #button-box{
+.button-box, #button-box, #button-box1{
     background-color: #242423 ;
     color: white;
     text-decoration: none;
@@ -131,6 +130,37 @@ body {
     
 }
 
+/*customized hilts page*/
+#card-img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-top: 50px;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 10px 10px 15px #5a189a;
+    height: auto; 
+    width: auto;
+    max-width: 600px;
+    inline-size: auto;
+}
+
+#msg1{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: gray;
+    margin-top: 30px;
+    text-align:center;
+}
+#button-box1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 1;
+    align-self:flex-end ;
+    margin-bottom: -150px;
+    justify-self: center;
+}
 
 
 footer{
