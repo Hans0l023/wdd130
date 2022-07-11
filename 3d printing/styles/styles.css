@@ -161,6 +161,21 @@ body {
     margin-bottom: -150px;
     justify-self: center;
 }
+/*Finding a PRINT page */
+.card-img1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-left: 100px;
+    margin-top: 50px;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 10px 10px 15px #5a189a;
+    height: auto; 
+    width: auto;
+    max-width: 600px;
+    inline-size: auto;
+}
+
 
 
 footer{
